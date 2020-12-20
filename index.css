@@ -1,0 +1,72 @@
+.header {
+    background: linear-gradient(to right, #F6606B, #D4539D, #AB53D4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(300px, auto);
+    gap: 20px;
+    margin: 20px;
+    /* background-image: url(cool-background.png); */
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.card {
+    text-align: center;
+    border: 1px black solid;
+    background-color: transparent;
+    /* width: 300px;
+    height: 200px; */
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    margin: 40px;;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.card-front {
+    background-color: #9E60F6;
+}
+
+.card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.info > h1 {
+    text-align: center;
+}
+
+#doing {
+    background-color: ;
+}
+
+
