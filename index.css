@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     background: linear-gradient(to right, #F6606B, #D4539D, #AB53D4);
     background-repeat: no-repeat;
@@ -5,6 +9,16 @@
     margin: 0;
     padding: 10px;
     text-align: center;
+}
+
+.header > a {
+    font-size: 25px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
 
 .cards-container {
@@ -56,17 +70,38 @@
 }
 
 .card-back {
-    background-color: dodgerblue;
+    background-color: #1A8725;
     color: white;
     transform: rotateY(180deg);
 }
 
-.info > h1 {
+.info {
+    margin: auto;
+    width: 50%;
     text-align: center;
 }
 
+.info > h1 {
+    /* text-align: center; */
+    margin: 0;
+    padding-top: 10px;
+}
+
+.info > p {
+    margin: 0;
+    padding: 20px;
+}
+
 #doing {
-    background-color: ;
+    background-color: #F6606B;
+}
+
+#done {
+    background-color: #48D4A5;
+}
+
+#enjoy {
+    background-color: #86D64D;
 }
 
 
