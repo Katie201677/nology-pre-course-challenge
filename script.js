@@ -1,7 +1,9 @@
-const button = document.querySelector('.photo-container');
+const photoButton = document.querySelector('.photo-container');
+const infoButton = document.querySelector('#infoButton');
+let clicked = false;
 
 function rotatePhoto() {
-    let photos = button.querySelectorAll('.photo');
+    let photos = photoButton.querySelectorAll('.photo');
     console.log(photos);
     for (let i=0; i<photos.length; i++) {
         let z = window.getComputedStyle(photos[i]).zIndex * 1;
@@ -13,4 +15,10 @@ function rotatePhoto() {
     }
 }
 
-button.addEventListener('click', rotatePhoto);
+function moreInfo() {
+    let hiddenPara = document.querySelector('.hidden');
+    hiddenPara.classList.toggle('revealed');
+}
+
+photoButton.addEventListener('click', rotatePhoto);
+infoButton.addEventListener('click', moreInfo);
