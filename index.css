@@ -100,45 +100,45 @@ body {
 }
 
 #photo1 {
-    background-image: url(/images/photo1.jpg);
+    background-image: url(images/photo1.jpg);
     z-index: 1;
     transform: rotate(15deg);
 }
 
 #photo2 {
-    background-image: url(/images/photo2.jpg);
+    background-image: url(images/photo2.jpg);
     z-index: 2;
     transform: rotate(-10deg);
 }
 
 #photo3 {
-    background-image: url(/images/photo3.jpg);
+    background-image: url(images/photo3.jpg);
     z-index: 3;
     transform: rotate(30deg);
 }
 
 #photo4 {
-    background-image: url(/images/photo4.jpg);
+    background-image: url(images/photo4.jpg);
     z-index: 4;
     transform: rotate(-15deg);
     margin-left: 10px;
 }
 
 #photo5 {
-    background-image: url(/images/photo5.jpg);
+    background-image: url(images/photo5.jpg);
     z-index: 5;
     transform: rotate(20deg);
     margin-right: 5px;
 }
 
 #photo6 {
-    background-image: url(/images/photo6.JPG);
+    background-image: url(images/photo6.JPG);
     z-index: 6;
     transform: rotate(-15deg);
 }
 
 #photo7 {
-    background-image: url(/images/photo7.JPG);
+    background-image: url(images/photo7.JPG);
     z-index: 7;
     transform: rotate(25deg);
     margin-left: 15px;
